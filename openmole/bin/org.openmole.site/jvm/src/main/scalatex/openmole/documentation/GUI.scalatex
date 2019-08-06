@@ -189,7 +189,7 @@ The currently supported authentications are:
             A random name will be associated to your key. Once saved, the authentication will be added to your list (by example: john@("@")blueberry.org)
         @li
             @b{Grid certificate} (.p12) for @aa("Grid Computing", href := shared.link.egi)@br
-            It only requires your EGI certificate file and the associated password. Click on No certificate to select your certificate file. It will be renamed to egi.p12. Note that only one EGI certificate is required (you will not need any other one!)
+            It only requires your EGI certificate file and the associated password. Click on No certificate to select your certificate file. It will be renamed to egi.p12. Note that only one EGI certificate is required (you will not need any other one!). @b{Warning:} on EGI website, when you get your certificate, you can download your certificate under different format. @b{None of them} is the right one to use in OpenMOLE. Instead, after importing your certificate into your browser, you should go in you browser settings (In firefox, go to about:preferences#privacy an then display the certificate) and export the certificate that has been imported when on the EGI website. This file is the one OpenMOLE needs to authenticate you on the grid.
 
 @br
 
